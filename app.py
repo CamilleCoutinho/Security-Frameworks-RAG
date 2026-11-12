@@ -1,4 +1,3 @@
-"""Interface Streamlit: streamlit run app.py"""
 import streamlit as st
 
 from rag.chunking import load_corpus
@@ -13,7 +12,7 @@ def get_retriever(embedder_name: str):
 
 
 st.title("Assistente de Frameworks de Segurança")
-embedder_name = st.sidebar.selectbox("Embeddings", ["st", "tfidf"])
+embedder_name = st.sidebar.selectbox("Embeddings", ["hybrid", "st", "tfidf"])
 k = st.sidebar.slider("Trechos recuperados (k)", 1, 8, 4)
 
 question = st.text_input("Pergunte sobre NIST CSF, CIS Controls ou OWASP Top 10")

@@ -1,6 +1,3 @@
-"""Mede a qualidade da BUSCA: hit@k (a fonte certa e o trecho certo vieram?) e MRR.
-Uso: python -m eval.run_eval --embedder tfidf --k 3 --min-hit 0.8
-"""
 import argparse
 import json
 import sys
@@ -32,7 +29,7 @@ def evaluate(embedder_name: str, k: int):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--embedder", default="st", choices=["st", "tfidf"])
+    ap.add_argument("--embedder", default="hybrid", choices=["st", "tfidf", "hybrid"])
     ap.add_argument("--k", type=int, default=3)
     ap.add_argument("--min-hit", type=float, default=0.0)
     a = ap.parse_args()

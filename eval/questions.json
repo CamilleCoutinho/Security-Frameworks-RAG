@@ -1,14 +1,102 @@
 [
-  {"q": "Qual função foi adicionada na versão 2.0 do NIST CSF?", "source": "nist_csf_2.md", "keyword": "Govern"},
-  {"q": "Quais são as categorias da função Detect do NIST?", "source": "nist_csf_2.md", "keyword": "monitoramento contínuo"},
-  {"q": "O que a função Recover do CSF cobre?", "source": "nist_csf_2.md", "keyword": "Restaurar"},
-  {"q": "Como mitigar SQL injection?", "source": "owasp_top10_2021.md", "keyword": "parametrizadas"},
-  {"q": "O que é SSRF?", "source": "owasp_top10_2021.md", "keyword": "URL"},
-  {"q": "Qual risco do OWASP fala de bibliotecas desatualizadas?", "source": "owasp_top10_2021.md", "keyword": "Dependency-Check"},
-  {"q": "Falta de MFA e senhas fracas é qual item do OWASP?", "source": "owasp_top10_2021.md", "keyword": "multifator"},
-  {"q": "Qual item do OWASP trata de logs e monitoramento insuficientes?", "source": "owasp_top10_2021.md", "keyword": "Logging"},
-  {"q": "O que são os grupos de implementação IG1, IG2 e IG3?", "source": "cis_controls_v8.md", "keyword": "IG1"},
-  {"q": "Qual é o controle 8 do CIS?", "source": "cis_controls_v8.md", "keyword": "logs de auditoria"},
-  {"q": "Qual controle do CIS trata de testes de invasão?", "source": "cis_controls_v8.md", "keyword": "invasão"},
-  {"q": "Qual controle do CIS fala de gestão de vulnerabilidades?", "source": "cis_controls_v8.md", "keyword": "vulnerabilidades"}
+ {
+  "q": "Qual função foi adicionada na versão 2.0 do NIST CSF?",
+  "source": "nist_csf_2.md",
+  "keyword": "Govern"
+ },
+ {
+  "q": "Quais são as categorias da função Detect do NIST?",
+  "source": "nist_csf_2.md",
+  "keyword": "monitoramento contínuo"
+ },
+ {
+  "q": "O que a função Recover do CSF cobre?",
+  "source": "nist_csf_2.md",
+  "keyword": "Restaurar"
+ },
+ {
+  "q": "Como mitigar SQL injection?",
+  "source": "owasp_top10_2021.md",
+  "keyword": "parametrizadas"
+ },
+ {
+  "q": "O que é SSRF?",
+  "source": "owasp_top10_2021.md",
+  "keyword": "URL"
+ },
+ {
+  "q": "Qual risco do OWASP fala de bibliotecas desatualizadas?",
+  "source": "owasp_top10_2021.md",
+  "keyword": "Dependency-Check"
+ },
+ {
+  "q": "Falta de MFA e senhas fracas é qual item do OWASP?",
+  "source": "owasp_top10_2021.md",
+  "keyword": "multifator"
+ },
+ {
+  "q": "Qual item do OWASP trata de logs e monitoramento insuficientes?",
+  "source": "owasp_top10_2021.md",
+  "keyword": "Logging"
+ },
+ {
+  "q": "O que são os grupos de implementação IG1, IG2 e IG3?",
+  "source": "cis_controls_v8.md",
+  "keyword": "IG1"
+ },
+ {
+  "q": "Qual é o controle 8 do CIS?",
+  "source": "cis_controls_v8.md",
+  "keyword": "logs de auditoria"
+ },
+ {
+  "q": "Qual controle do CIS trata de testes de invasão?",
+  "source": "cis_controls_v8.md",
+  "keyword": "invasão"
+ },
+ {
+  "q": "Qual controle do CIS fala de gestão de vulnerabilidades?",
+  "source": "cis_controls_v8.md",
+  "keyword": "vulnerabilidades"
+ },
+ {
+  "q": "Como evitar que um atacante manipule as consultas feitas ao banco de dados?",
+  "source": "owasp_top10_2021.md",
+  "keyword": "parametrizadas"
+ },
+ {
+  "q": "Qual risco aparece quando o sistema acessa um endereço informado pelo usuário e chega a serviços internos?",
+  "source": "owasp_top10_2021.md",
+  "keyword": "SSRF"
+ },
+ {
+  "q": "O que fazer para saber quais máquinas e equipamentos existem na empresa?",
+  "source": "cis_controls_v8.md",
+  "keyword": "Inventário e controle de ativos corporativos"
+ },
+ {
+  "q": "Como se preparar para voltar a operar depois de um ataque?",
+  "source": "nist_csf_2.md",
+  "keyword": "Restaurar"
+ },
+ {
+  "q": "Que prática ajuda a evitar que funcionários caiam em golpes?",
+  "source": "cis_controls_v8.md",
+  "keyword": "Conscientização"
+ },
+ {
+  "q": "Quem define a estratégia e a política de riscos de cibersegurança no NIST?",
+  "source": "nist_csf_2.md",
+  "keyword": "estratégia"
+ },
+ {
+  "q": "Qual risco do OWASP envolve falta de TLS e chaves mal gerenciadas?",
+  "source": "owasp_top10_2021.md",
+  "keyword": "TLS"
+ },
+ {
+  "q": "Como garantir que só programas autorizados rodem nos computadores?",
+  "source": "cis_controls_v8.md",
+  "keyword": "software autorizado"
+ }
 ]
